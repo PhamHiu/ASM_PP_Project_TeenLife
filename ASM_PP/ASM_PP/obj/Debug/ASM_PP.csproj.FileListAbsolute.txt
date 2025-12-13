@@ -1,0 +1,38 @@
+C:\Users\BICH NGOC\source\repos\ASM_PP\ASM_PP\obj\Debug\ASM_PP.csproj.AssemblyReference.cache
+C:\Users\BICH NGOC\source\repos\ASM_PP\ASM_PP\obj\Debug\ASM_PP.Admin.resources
+C:\Users\BICH NGOC\source\repos\ASM_PP\ASM_PP\obj\Debug\ASM_PP.Login.resources
+C:\Users\BICH NGOC\source\repos\ASM_PP\ASM_PP\obj\Debug\ASM_PP.Properties.Resources.resources
+C:\Users\BICH NGOC\source\repos\ASM_PP\ASM_PP\obj\Debug\ASM_PP.Student.resources
+C:\Users\BICH NGOC\source\repos\ASM_PP\ASM_PP\obj\Debug\ASM_PP.csproj.GenerateResource.cache
+C:\Users\BICH NGOC\source\repos\ASM_PP\ASM_PP\obj\Debug\ASM_PP.csproj.CoreCompileInputs.cache
+C:\Users\BICH NGOC\source\repos\ASM_PP\ASM_PP\bin\Debug\ASM_PP.exe.config
+C:\Users\BICH NGOC\source\repos\ASM_PP\ASM_PP\bin\Debug\ASM_PP.exe
+C:\Users\BICH NGOC\source\repos\ASM_PP\ASM_PP\bin\Debug\ASM_PP.pdb
+C:\Users\BICH NGOC\source\repos\ASM_PP\ASM_PP\obj\Debug\ASM_PP.exe
+C:\Users\BICH NGOC\source\repos\ASM_PP\ASM_PP\obj\Debug\ASM_PP.pdb
+C:\Users\BICH NGOC\source\repos\ASM_PP\ASM_PP\obj\Debug\ASM_PP.exe.config
+E:\GIT\Project_TeenLife\ASM_PP\ASM_PP\bin\Debug\ASM_PP.exe.config
+E:\GIT\Project_TeenLife\ASM_PP\ASM_PP\bin\Debug\ASM_PP.exe
+E:\GIT\Project_TeenLife\ASM_PP\ASM_PP\bin\Debug\ASM_PP.pdb
+E:\GIT\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.csproj.AssemblyReference.cache
+E:\GIT\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.exe.config
+E:\GIT\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.Admin.resources
+E:\GIT\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.Login.resources
+E:\GIT\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.Properties.Resources.resources
+E:\GIT\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.Student.resources
+E:\GIT\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.csproj.GenerateResource.cache
+E:\GIT\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.csproj.CoreCompileInputs.cache
+E:\GIT\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.exe
+E:\GIT\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.pdb
+D:\Git\Project_TeenLife\ASM_PP\ASM_PP\bin\Debug\ASM_PP.exe.config
+D:\Git\Project_TeenLife\ASM_PP\ASM_PP\bin\Debug\ASM_PP.exe
+D:\Git\Project_TeenLife\ASM_PP\ASM_PP\bin\Debug\ASM_PP.pdb
+D:\Git\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.csproj.AssemblyReference.cache
+D:\Git\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.Admin.resources
+D:\Git\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.Login.resources
+D:\Git\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.Properties.Resources.resources
+D:\Git\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.Student.resources
+D:\Git\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.csproj.GenerateResource.cache
+D:\Git\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.csproj.CoreCompileInputs.cache
+D:\Git\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.exe
+D:\Git\Project_TeenLife\ASM_PP\ASM_PP\obj\Debug\ASM_PP.pdb
