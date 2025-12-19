@@ -207,7 +207,73 @@ namespace ASM_PP
                 MessageBox.Show("Error: " + ex.Message);
             }
         }
+        // hàm update provider
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if (dgvProvider.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Please select a Provider to edit.", "Warning");
+                return;
+            }
 
+            if (string.IsNullOrWhiteSpace(txt_Provider_Name.Text) || string.IsNullOrWhiteSpace(cbCategory.Text))
+            {
+                MessageBox.Show("Please enter Provider Name and choose a Category.", "Warning");
+                return;
+            }
+
+            int providerId = Convert.ToInt32(dgvProvider.SelectedRows[0].Cells["ProviderId"].Value);
+
+            // Resolve (or create) category and area IDs using existing helpers
+            int categoryId = GetOrCreateCategoryId(cbCategory.Text.Trim());
+            int? areaId = null;
+            if (!string.IsNullOrWhiteSpace(cbArea.Text)) areaId = GetOrCreateAreaId(cbArea.Text.Trim());
+
+            try
+            {
+                using (var conn = new SqlConnection(connectionString))
+                using (var cmd = new SqlCommand(@"
+            UPDATE Providers
+            SET Name = @name,
+                CategoryId = @cat,
+                Address = @addr,
+                Phone = @phone,
+                Description = @desc,
+                AreaId = @area
+            WHERE ProviderId = @id", conn))
+                {
+                    cmd.Parameters.AddWithValue("@name", txt_Provider_Name.Text.Trim());
+                    cmd.Parameters.AddWithValue("@cat", categoryId);
+                    cmd.Parameters.AddWithValue("@addr", txtAddress.Text.Trim());
+                    cmd.Parameters.AddWithValue("@phone", txtPhone.Text.Trim());
+                    cmd.Parameters.AddWithValue("@desc", txtdescription.Text.Trim());
+                    cmd.Parameters.AddWithValue("@area", areaId.HasValue ? (object)areaId.Value : DBNull.Value);
+                    cmd.Parameters.AddWithValue("@id", providerId);
+
+                    conn.Open();
+                    int affected = cmd.ExecuteNonQuery();
+
+                    if (affected > 0)
+                        MessageBox.Show("Provider updated successfully.", "Success");
+                    else
+                        MessageBox.Show("No provider was updated. It may have been removed.", "Info");
+                }
+
+                // Refresh UI
+                LoadCategoriesToCombo(cbCategory);
+                if (cbCategory.Items.Count > 0) cbCategory.SelectedValue = categoryId;
+                if (areaId.HasValue)
+                {
+                    LoadAreasToCombo(cbArea);
+                    cbArea.SelectedValue = areaId.Value;
+                }
+                LoadProviders();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
         // Hàm reset biến tạm
         private void ResetPendingVars()
         {
